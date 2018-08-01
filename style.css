@@ -1,0 +1,109 @@
+body {
+  background-color:   #EBEBEB;
+  font-family: 'Open Sans', sans-serif;
+  color: #7d7d7d;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.6em;
+  background-image: url("images/london.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+h1 {
+  font-size: 22px;
+  display: block;
+  font-weight: bold;
+}
+h1,h2,h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+h2 {
+  font-size: 18px;
+  font-weight: 300;
+}
+a {
+  color: #cccc;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #428aff;
+  text-decoration: none;
+}
+
+img {
+  width: 200px;
+  border-radius: 75px;
+  border:1px solid #021a40
+}
+td{
+  padding: 10px;
+}
+table{
+  text-align: start;
+}
+div {
+  display: block;
+}
+ul {
+ list-style-type: none;
+ }
+
+.card{
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  opacity: 0.95;
+}
+.text-center{
+  text-align: center;
+}
+#face{
+  border-radius: 100px;
+}
+.container{
+  margin: 30px auto;
+  width: 750px;
+}
+table#likes {
+  width:70%;
+  margin: 0 auto;
+  text-align: center;
+}
+table#links {
+    width:70%;
+    margin: 0 auto;
+    text-align: center;
+  }
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+}
+/*.parallax {
+
+    background-image: url("london.jpg");
+
+    height: 500px;
+
+     Create the parallax scrolling effect
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
